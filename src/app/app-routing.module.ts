@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AuthentificationComponent } from './authentification/authentification.component';
 import { ProfileComponent } from './profile/profile.component';
+import { FormAuthentificationComponent } from './form-authentification/form-authentification.component';
 
 const routes: Routes = [
-  { path: 'login', component: AuthentificationComponent },
+  { path: '', component: FormAuthentificationComponent },
   { path: 'profile', component: ProfileComponent },
   { path: '', redirectTo: '/login', pathMatch: 'full' }
 ];
