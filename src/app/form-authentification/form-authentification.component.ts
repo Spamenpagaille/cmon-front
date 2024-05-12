@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-form-authentification',
-  standalone: true,
   templateUrl: './form-authentification.component.html',
   styleUrl: './form-authentification.component.scss'
 })

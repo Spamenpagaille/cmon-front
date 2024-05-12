@@ -11,9 +11,12 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { ProfileComponent } from './profile/profile.component';
 
+import { FormAuthentificationComponent } from './form-authentification/form-authentification.component';
+
 @NgModule({
   declarations: [
-    ProfileComponent
+    ProfileComponent,
+    FormAuthentificationComponent
   ],
   imports: [
     BrowserModule,
