@@ -27,7 +27,8 @@ import { FormAuthentificationComponent } from './form-authentification/form-auth
     MatFormFieldModule,
     HttpClientModule,
     MatCardModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormAuthentificationComponent
   ],
   providers: [//Service
 
